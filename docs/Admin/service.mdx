@@ -1,5 +1,5 @@
 ---
-sidebar_position: 20
+sidebar_position: 2
 ---
 
 import React from 'react';
@@ -9,71 +9,33 @@ import TabItem from '@theme/TabItem';
 
 
       <Tabs
-        defaultValue="service"
+        defaultValue="tags"
         values={[
-          { label: 'tags', value: 'tags' },
-          { label: 'category', value: 'category' },
-          { label: 'service', value: 'service' },
+          { label: 'Tags', value: 'tags' },
+          { label: 'Category', value: 'category' },
+          { label: 'Services', value: 'service' },
         ]}
       >
-
-<TabItem value="service">
-
-
-# Services
-
-- In this section, the admin will be able to see all the existing services and their key information.
-
-- Admin can Publish or Unpublish a service by using the **status** switch.
-
-- Admin can search a specific service by using the **search bar**.
-
-
-## Here is how to add a new service!
-
-- Admin can add a new service by clicking the **Add New** button.
-- A page will open where admin can add a new service.
-- A form will be displayed then fill all the required fields and click on the **Submit** button to save the service.
-
-
-## Here is how to edit a service!
-
-- Admin can edit a service by clicking the **Edit** action button.
-- A page will open where admin can edit the services according to his requirement.
-- After editing the service, click on the **Update service** button to save the service.
-
-
-## Here is how to see a service detail?
-
-- To see a service detail, click on the service name. 
-- You will be redirected to the service detail page.
-
-
-
-## Here is how to see faq and create a faq?
-
-- To see faq and create a faq, click on the **View** button.
-- You can see a list of FAQs.
-- To add a new FAQ, click on the **Add New** button.
-
-
-
-## Here is how you can send a announcement !
-
-- To send a announcement, click on the **Announcement** action button.
-- A form will be displayed then fill all the required fields and click on the **Submit** button to send the announcement.
-
-
-</TabItem>
-
 <TabItem value="tags">
 
 
-# tags
+# Tags
 
-- In this section, the admin can view the complete list of user enrollments.
-
+- In this section, the admin can view the complete list of service's tags.
 - Admin can search a specific service by using the **search bar**.
+- Admin can delete the tag by using the **Delete** button.
+
+![Tags](./img/tags.png)
+
+- Admin can add a new tag by clicking the **Add New** button.
+- A page will open where admin can add a new tag by fulfilling the form.
+
+![Add Tag](./img/add_tag.png)
+
+- Admin can edit a tag by clicking the **Edit** action button.
+- A page will open where admin can edit the tag according to his requirement.
+
+![Edit Tag](./img/edit_tags.png)
 
 
 </TabItem>
@@ -84,10 +46,52 @@ import TabItem from '@theme/TabItem';
 
 # category
 
-- In this section, the admin can view the complete list of user enrollments.
-
+- In this section, the admin can view the complete list of service categories.
 - Admin can search a specific service by using the **search bar**.
+- Admin can delete the category by using the **Delete** button.
+- Admin can off/on the category by using the **Status** switch. In which categories are on, users can see them in the service section. Otherwise not.
 
+![Category](./img/service_category_list.png)
+
+- Admin can add a new category by clicking the **Add New** button.
+- A page will open where admin can add a new category by fulfilling the form.
+
+![Add Category](./img/add_ser_cate.png)
+
+- Admin can edit a category by clicking the **Edit** action button.
+- A page will open where admin can edit the category according to his requirement.
+
+![Edit Category](./img/edit_ser_cate.png)
+
+
+</TabItem>
+
+
+<TabItem value="service">
+
+
+# Services
+
+- In this section, the admin will be able to see all the existing services and their key information.
+- Admin can search a specific service by using the **search bar**.
+- Admin can delete the service by using the **Delete** button.
+- Admin can off/on the service by using the **Status** switch. In which services are on, users can see them in the service section. Otherwise not.
+
+![Services](./img/services.png)
+
+- Admin can add a new service by clicking the **Add New** button.
+- A page will open where admin can add a new service by fulfilling the form.
+
+![Add Service](./img/add_service.png)
+
+- Admin can edit a service by clicking the **Edit** action button.
+- A page will open where admin can edit the service according to his requirement.
+
+![Edit Service](./img/edit_service.png)
+
+- Admin can view the service details by clicking the **View icon** button.
+
+![Service Detail](./img/view_service.png)
 
 </TabItem>
 

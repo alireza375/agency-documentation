@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Event
+# Events
 
 - In this section, uses can see all of the Events.
 - To clicking the **Learn More** button to go to the Event details page.
