@@ -4,7 +4,8 @@ sidebar_position: 2
 
 # Contact
 
-- In this section, users can see the contact page with contact form.
-- And users can contact with admin by fulfill the contact form.
+- In this section, anyone can see the Contact section, here all the sections are dynamic.
+- In this section, users can contact with admin by fill the contact form.
+- Admin can change the contact details according to his requirement.
 
 ![Contact](../img/contact.png)
